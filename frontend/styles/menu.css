@@ -1,0 +1,77 @@
+#Menu {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+
+.leftPanel {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background: rgb(224, 95, 95); */
+    /* padding-top: 5%; */
+}
+
+.leftPanel .heading {
+    font-family: 'Times New Roman', Times;
+    border-top: none;
+}
+
+.menuTable {
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 70%;
+    height: 100%;
+    /* background: rgb(92, 92, 92); */
+    background: url('../images/wood.jpg');
+    background-size: cover;
+}
+
+.menuTable thead {
+    border-bottom: 1px solid black;
+}
+
+.menuTable th {
+    padding: 15px;
+    text-shadow: 7px 7px 3.7px #0c0c0c;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.menuTable td {
+    padding: 10px;
+    font-size: .97rem;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.menuTable tbody tr:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+/* .menuTable th:nth-child(2) {
+    border-left: 5px solid rgba(0, 0, 0, 0.185);
+} */
+
+.menuTable td:nth-child(2) {
+    border-left: 5px solid rgba(0, 0, 0, 1);
+}
+
+.rightPanel {
+    width: 60vh;
+    width: 100%;
+    height: 80vh;
+    padding-top: 15%;
+    align-items: center;
+    text-align: center;
+    background: rgb(160, 13, 13);
+}
+
+.rightPanel :nth-child(1) {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5rem;
+}

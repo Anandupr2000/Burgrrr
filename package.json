@@ -1,0 +1,16 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "for starting frontend and backend concurrently",
+  "main": "index.js",
+  "scripts": {
+    "dev1": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start -y\" ",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\" ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}

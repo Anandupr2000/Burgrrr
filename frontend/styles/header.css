@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.header>.title {
+    width: 30%;
+    font-size: 2.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.options {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    margin-right: 5rem;
+    gap: 1rem
+}
+
+.options>a {
+    min-width: 5rem;
+    height: 2rem;
+    padding-top: .1rem;
+    padding-left: .3rem;
+    padding-right: .3rem;
+    border: 1px solid gray;
+    border-radius: 30px;
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    flex: 1;
+}
+
+.options>a:hover {
+    border: 1.3px solid rgba(255, 255, 0, 0.87);
+    color: rgba(255, 255, 0, 0.664);
+}
+
+@font-face {
+    font-family: "funny-face";
+    src: url('./fonts/HoneySilk.otf');
+}
