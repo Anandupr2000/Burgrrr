@@ -1,5 +1,6 @@
 import React from 'react'
 import Burgers from './Burgers'
+import CustomizeBurger from './customizeBurger'
 import Menu from './Menu'
 
 function Home() {
@@ -7,6 +8,7 @@ function Home() {
     <div>
       <Burgers />
       <Menu />
+      <CustomizeBurger/>
     </div>
   )
 }

@@ -3,7 +3,7 @@ import axios from 'axios';
 const isServerAvailable = async () => {
     let res =  await axios
         .post('http://localhost:3001/test',{
-            body:"post request"
+            body:"post request",
         })
         .then(res => {
             console.log(res.data)
