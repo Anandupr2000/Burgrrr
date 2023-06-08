@@ -3,28 +3,28 @@
 @import url(./burgers.css);
 @import url(./customizeBurger.css);
 @import url(./menu.css);
+@import url(./card.css);
 @import url(./footer.css);
-
+@import url(./login.css);
 .App {
-    /* background-color: #1b1d20; */
-    background-color: rgba(0, 0, 0, 0.993);
-    color: white;
-    text-align: center;
-  }
-  
-  .highlights{
-    color: rgba(255, 255, 0, 0.87);
-  }
-  
-  .logo{
-    display: flex;
-    flex-direction: column;
-  }
-  .logo :nth-child(2){
-    margin-top: -1.2rem;
-    margin-left: 2.9rem;
-    font-size: 1rem;
-    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
-    font-family: "funny-face";
-  }
-  
+  /* background-color: #1b1d20; */
+  background-color: rgba(0, 0, 0, 0.993);
+  color: white;
+  text-align: center;
+}
+.highlights {
+  color: rgba(255, 255, 0, 0.87);
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo :nth-child(2) {
+  margin-top: -1.2rem;
+  margin-left: 2.9rem;
+  font-size: 1rem;
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+  font-family: "funny-face";
+}

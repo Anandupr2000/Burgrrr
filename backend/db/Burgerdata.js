@@ -1,4 +1,4 @@
-module.exports.burgers= [
+const burgers= [
     {
     "name": "deadloack burger",
     "varients": [
@@ -100,3 +100,5 @@ module.exports.burgers= [
 
 }
 ];
+
+export default burgers

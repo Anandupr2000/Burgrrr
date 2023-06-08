@@ -1,0 +1,21 @@
+.loginBody{
+    height: 100vh;
+    display: flex;
+    color: white;
+}
+.loginLeft{
+    margin: 1rem 0px;
+    width: 50%;
+    background: url(../images/burgerDecorated.jpg);
+    background-size: cover;
+    background-position: center;
+    /* background: rgb(224, 56, 56); */
+}
+.loginRight{
+    width: 50%;
+    max-width: 500px;
+    margin: 1%;
+    padding: 7rem 5rem 5rem 5rem;    
+    /* align-content: center; */
+    background: rgba(80, 19, 19, 0.082);
+}

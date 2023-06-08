@@ -1,9 +1,20 @@
 #Menu {
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
-    padding: 2rem;
+    /* padding: 2rem; */
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
+.menuItems {
+    background-color: #000;
+    scroll-snap-align: end;
+    /* -webkit-overflow-scrolling: touch;
+    scroll-snap-type: mandatory;
+    scroll-snap-points-y: repeat(300px);
+    scroll-snap-points-x: repeat(300px); */
+}
 .leftPanel {
     width: 100%;
     height: 80vh;
@@ -35,7 +46,8 @@
     /* height: 40%; */
     align-items: center;
 }
-.selectedItemsBoard{
+
+.selectedItemsBoard {
     /* background: rgb(148, 123, 123); */
     /* height: 60%; */
 }

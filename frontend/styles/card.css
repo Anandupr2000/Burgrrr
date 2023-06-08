@@ -1,0 +1,72 @@
+.cardItem{
+    /* color: rgb(29, 17, 17); */
+    width: 17rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin: 1rem; */
+    background: rgb(46, 46, 46);
+    /* border:2px solid green; */
+    border-radius: 5px;
+    transition: 0.3s;
+    z-index: 2000;
+}
+.cardItemPrice{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(255, 145, 0);
+    padding-left: 1rem;
+    padding-right: .3rem;
+}
+/* .cardItemPriceTag{
+    max-height: 1.3rem;
+    width: fit-content;
+    position: absolute;
+    float: left;
+    rotate: -30deg;
+    padding-bottom: 10rem;
+    background: #000;
+} */
+.cardItem:hover {
+    /* background: rgb(192, 87, 87); */
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(255, 255, 255, 0.35);
+}
+.cardItem .button:hover{
+    color: rgb(240, 238, 238);
+    background-color: aliceblue;
+}
+.cardItem img{
+    object-fit: contain;
+}
+.cardActions{
+    display: flex;
+    /* border: 5px solid wheat; */
+    gap: 10px;
+}
+.item-varient{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+.item-varient :nth-child(2){
+    width: fit-content;
+    height: fit-content;
+    background: transparent;
+    color: white;
+}
+
+.item-varient :nth-child(2) option{
+    color: black;
+}
+.card-heading {
+    font-size: larger;
+    text-transform: uppercase;
+    left:0px;
+    border-bottom: 2px solid rgb(218, 215, 215);
+}
+.card-description{
+    white-space: pre;
+    font-variant: small-caps;
+}

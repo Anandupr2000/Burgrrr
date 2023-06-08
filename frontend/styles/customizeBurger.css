@@ -1,12 +1,42 @@
+.customBurgerMenu{
+    display: flex;
+    /* width: 100%; */
+    flex-direction: row-reverse;
+}
+.burgerPrepare{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 1rem;
+    align-content: flex-end;
+}
+.burgerPrepare div{
+    display: flex;
+    align-items: flex-end;
+}
+.burgerPrepare .dummyImage{
+    position: absolute;
+    height: 470px;
+    width: 350px;
+    /* border: 2px solid white; */
+    background: radial-gradient(rgba(250, 213, 3, 0) 10%, rgba(0, 0, 0, 1));
+}
+.burgerPrepare img{
+    /* width: 350px; */
+    height: 100%;
+    object-fit: contain;
+    /* align-self: flex-end; */
+    /* border: 1px solid white; */
+}
 .ingredientTableHeading{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2.5rem;
+    border: none;
 }
 .ingredientTable {
     margin-top: 5%;
     margin-right: 10%;
     width: 100%;
-    /* max-width: 600px; */
+    max-width: 800px;
     height: 100%;
     /* background: rgb(92, 92, 92); */
     background: url('../images/wood.jpg');

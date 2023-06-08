@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react'
+import Image from 'next/image'
+import burgerPrepareImg from "../images/burgerPrepare.jpg"
 
 function CustomizeBurger() {
     const [totalPrice, setTotalPrice] = useState(0);
@@ -69,11 +71,8 @@ function CustomizeBurger() {
     }
     return (
         <div>
-            <div>
-                <span>sdfsd</span>
-            </div>
-            <div className='customBurgerMenu'>
-                <span className='ingredientTableHeading'>Choose what goes into your burger ?</span>
+            <span className='ingredientTableHeading'>Choose what goes into your burger ?</span>
+            <div className='burgerPrepare'>
                 <table id='tableMenu' className='ingredientTable'>
                     <thead>
                         <tr>
@@ -103,6 +102,10 @@ function CustomizeBurger() {
                         </tr>
                     </tbody>
                 </table>
+                {/* <div> */}
+                    <Image src={burgerPrepareImg} alt="" />
+                    {/* <div className="dummyImage"></div>
+                </div> */}
             </div>
         </div>
     )

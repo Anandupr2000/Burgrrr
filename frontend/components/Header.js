@@ -1,5 +1,5 @@
 import React from 'react'
-// import '../styles/header.css'
+import { addToCart } from '../pages/api/server'
 function Header() {
     return (
         <div className='header'>
@@ -8,8 +8,8 @@ function Header() {
                 <span>delicious food</span>
             </div>
             <div className="options">
-                <a href='#'>Home</a>
-                <a href='/cart'>Cart</a>
+                <a href='/'>Home</a>
+                <a href='/cart' onClick={addToCart}>Cart</a>
                 <a href='/login'>Login</a>
             </div>
         </div>

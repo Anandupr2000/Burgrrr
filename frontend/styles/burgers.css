@@ -14,6 +14,7 @@
     font-family: 'warasgard';
     font-variant: small-caps;
     font-stretch: expanded;
+    z-index: 100;
 }
 .description{
     text-align: justify;
